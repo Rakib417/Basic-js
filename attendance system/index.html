@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attendance system</title>
+</head>
+<body>
+    <h2>Inpute your Time here.</h2>
+
+
+
+
+<script type="text/javascript">
+    var attend = prompt ("Input Time")
+    switch (true){
+        case (attend >= '10:00 am' && attend <'10:30 am'):
+            console.log('Attendance on time');
+            break;
+        case (attend >= '10:30 am ' && attend <'11:00 am'):
+            console.log('Attendance late');
+            break;
+        case (attend >= '11:30am' && attend <'12:00 pm'):
+            console.log('Very late');
+            break;
+        case (attend >= '12:00 pm ' && attend <'13:00 pm'):
+            console.log('Too much late Like Mainul');
+            break;
+
+        default:
+            console.log(`Too Early.`);
+    }
+    console.log("Inform Rakib vai");
+
+
+
+
+
+
+
+
+
+
+
+
+
+</script>
+
+
+
+</body>
+</html>

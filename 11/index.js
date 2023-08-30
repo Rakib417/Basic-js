@@ -67,23 +67,29 @@
 
     // for ...in
     // Object
-    let animal = {
-        name :"Zebra",
-        leg:4
-    };
-    for(let key in animal){
-        console.log(key,animal[key]);
-    }
+    // let animal = {
+    //     name :"Zebra",
+    //     leg:4
+    // };
+    // for(let key in animal){
+    //     console.log(key,animal[key]);
+    // }
 
 
-    // Arrays
-    let names= ["Rahul", "hena", "Aman", "rakib", "Ullah"];
-    for(let index in names){
-        console.log(index, names[index]) 
-    }
+    // // Arrays
+    // let names= ["Rahul", "hena", "Aman", "rakib", "Ullah"];
+    // for(let index in names){
+    //     console.log(index, names[index]) 
+    // }
 
 
-    // for...of loops
-    for(let name of names){
-        console.log(name)
+    // // for...of loops
+    // for(let name of names){
+    //     console.log(name)
+    // }
+
+
+
+    for(let i=0; i<100; i = i+5){
+    console.log("helo world");
     }
