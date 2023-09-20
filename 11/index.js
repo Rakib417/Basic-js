@@ -95,7 +95,47 @@
     // }
 
 
-    for(let i=0; i<10; i++){
-        if(i%2 != 0)
-        console.log(i);
-        }
+    // for(let i=0; i<10; i++){
+    //     if(i%2 == 0)
+    //     console.log(i);
+    //     }
+
+
+// infinite loops
+
+// for(let i=0; i<10; i++){
+//     if(i%2 == 0)
+//     console.log("helo world");
+//     }
+
+    // let i=10;
+    // while(i>=0){
+    //     console.log("hello world")
+    //     i--
+    // }
+
+    // do while
+// let j = 0;
+//     do{
+//         console.log("kello world")
+//         j++
+//     }
+//     while(j < 10)
+
+
+
+
+// for in
+// object
+    let animal = {
+        name : "Dog",
+        leg : 4,
+        nose: 1,
+    };
+    for(let key in animal){
+        console.log(key, animal[key]);
+    }
+    
+
+    // arraye  
+
