@@ -139,3 +139,13 @@
 
     // arraye  
 
+let student = {
+    name : "Rakib",
+    roll : "20",
+    Batch : "2020",
+    Class : "10",
+    Year : "2019"
+};
+for(let key in student){
+    console.log(key, student[key]);
+}
